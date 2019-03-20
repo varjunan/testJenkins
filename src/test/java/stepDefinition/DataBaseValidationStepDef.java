@@ -45,6 +45,9 @@ public class DataBaseValidationStepDef {
     @Then("^the (.*) customer data should load into the CDF Master table$")
     public void wcsDataToCdfMasterTable(String interfaceID) throws Throwable {
 
+
+        System.out.println(interfaceID);
+
         Properties properties = obj.getProperty(); // initialize properties class
         String xmlPath = properties.getProperty("XmlPath_" + interfaceID);                // XMLs file location
 
@@ -75,7 +78,7 @@ public class DataBaseValidationStepDef {
 
     private static Map<String, CRContextXML> createMapforXMLData(List<CRContextXML> contextListXML) {
 
-        Map<String, CRContextXML> mapCRContextXML = contextListXML.stream()
+        return contextListXML.stream()
                 .collect(Collectors.toMap
                         (x -> x.getWcsExternalCustomerId(), x -> x, (x1, x2) -> {
                             try {
@@ -87,12 +90,9 @@ public class DataBaseValidationStepDef {
                             return x1;
                         }));
 
-        return mapCRContextXML;
-
     }
 
     private static Date convertToDate(String dateValue) throws ParseException {
-        Date parsedDate = new SimpleDateFormat("dd-MMM-yy HH.mm.ss.SSSSSSSSS").parse(dateValue);
-        return parsedDate;
+        return new SimpleDateFormat("dd-MMM-yy HH.mm.ss.SSSSSSSSS").parse(dateValue);
     }
 }
