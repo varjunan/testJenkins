@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service:CustomerInfo xmlns:service="http://service.ccd.commerce.mns.com/">
+    <Header>
+        <ServiceIdentifier>-1ca6c3e6:16932fe5c26:-5b60</ServiceIdentifier>
+        <StoreId>10151</StoreId>
+        <CreationDateTime>2019-03-01T10:50:04.616Z</CreationDateTime>
+        <LangId>-24</LangId>
+        <Currency>GBP</Currency>
+        <Locale>en_GB</Locale>
+        <SourceSystem>WCS</SourceSystem>
+    </Header>
+    <CustomerDetails>
+        <ExternalCustomerId>504181358</ExternalCustomerId>
+        <Address>
+            <FirstName>Nalan</FirstName>
+            <LastName>Kaarki</LastName>
+            <Title>Mr</Title>
+            <AddressLine1>Albion Collections</AddressLine1>
+            <AddressLine2>PO Box 123</AddressLine2>
+            <City>LEEDS</City>
+            <Country>United Kingdom</Country>
+            <CountryCode>GB</CountryCode>
+            <PostalCode>LS1 1AZ</PostalCode>
+            <Telephone>0757567844556</Telephone>
+        </Address>
+    </CustomerDetails>
+    <service:UserData>
+        <service:UserDataField name="userType">G</service:UserDataField>
+        <service:UserDataField name="guestEmail">mozhiyan@gmail.com</service:UserDataField>
+    </service:UserData>
+</service:CustomerInfo>

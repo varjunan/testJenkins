@@ -1,0 +1,6 @@
+Feature: I02018
+
+  Scenario: hello scenario               [90m# abc.feature:2[0m
+    [32mWhen [0m[32muser has user name and password[0m [90m# StepDefinition.user_has_user_name_and_password()[0m
+    [32mAnd [0m[32muser enter the details[0m           [90m# StepDefinition.user_enter_the_details()[0m
+    [32mThen [0m[32muser logged into site[0m           [90m# StepDefinition.user_logged_into_site()[0m

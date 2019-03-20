@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service:CustomerInfo xmlns:service="http://service.ccd.commerce.mns.com/">
+    <Header>
+        <ServiceIdentifier>-740a05d2:162ba73f791:-45ba</ServiceIdentifier>
+        <StoreId>10151</StoreId>
+        <CreationDateTime>2019-02-22T12:30:01.921Z</CreationDateTime>
+        <LangId>-24</LangId>
+        <Currency>GBP</Currency>
+        <Locale>en_GB</Locale>
+        <SourceSystem>WCS</SourceSystem>
+    </Header>
+    <CustomerDetails>
+        <ExternalCustomerId>504180060</ExternalCustomerId>
+        <Telephone>07466789214</Telephone>
+        <Title>Ms</Title>
+        <FirstName>Pugazh_ABC</FirstName>
+        <LastName>Gandhi_ABC</LastName>
+        <Dob>06-11-1990</Dob>
+        <Email>rkaur10@sapient.com</Email>
+        <Address>
+            <FirstName>Address_Pugazh</FirstName>
+            <LastName>Kaur</LastName>
+            <Title>Ms</Title>
+            <AddressLine1>Flat 4</AddressLine1>
+            <AddressLine2>4 Spital Square</AddressLine2>
+            <City>LONDON</City>
+            <Country>United Kingdom</Country>
+            <CountryCode>GB</CountryCode>
+            <PostalCode>E1 6DU</PostalCode>
+            <Telephone>07466788213</Telephone>
+        </Address>
+    </CustomerDetails>
+    <CsrContactPrefs>
+        <Mail>N</Mail>
+        <Phone>N</Phone>
+    </CsrContactPrefs>
+    <IsActive>Y</IsActive>
+    <IsAgeOver18>Y</IsAgeOver18>
+</service:CustomerInfo>
